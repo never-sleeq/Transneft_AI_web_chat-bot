@@ -27,6 +27,7 @@
    ```
 
 2. Перейдите по ссылке хранилища https://drive.google.com/drive/folders/1ZJmImIehbS1g_flHRs58iEk_zs5cJAyX?usp=drive_link , скачайте оттуда папку с моделью bge-m3 и файл модели Saiga2-7B (в формате .guff) и поместите в transneft_ai_web_chat/backend
+![image](Screenshot_1.png)
 
 2. **Убедитесь, что Python установлен**  
    Откройте терминал (командную строку) и выполните:
