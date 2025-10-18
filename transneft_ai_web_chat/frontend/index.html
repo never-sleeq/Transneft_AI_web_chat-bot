@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Цифровой консультант Транснефть</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="avatar-section">
+            <div id="avatar" class="avatar">
+                <img id="avatar-image" src="avatars/idle.svg" alt="Аватар">
+            </div>
+        </div>
+
+        <div class="chat-section">
+            <div class="chat-header">
+                <h2>Цифровой консультант Транснефть</h2>
+                <div class="status">Online</div>
+            </div>
+
+            <div class="messages-container" id="messages-container">
+            </div>
+
+            <div class="input-container">
+                <input type="text" id="user-input" placeholder="Задайте ваш вопрос...">
+                <button id="send-button">Отправить</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #173d90;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*фул окно*/
+
+.chat-container {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    height: 80vh;
+    background: linear-gradient(10deg, #0f2663, #2563EB);
+    border-radius: 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    overflow: hidden;
+}
+
+
+/*секция аватара*/
+
+.avatar-section {
+    flex: 1;
+    background: #0f2663;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.avatar {
+    width: 100%;
+    height: 80%;
+    background: rgb(0, 0, 0);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #2563EB;
+}
+
+#avatar-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+/*правая секция*/
+.chat-section {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(90deg, #0f2663, #2563EB);
+}
+
+/*заголовок*/
+.chat-header {
+    background: linear-gradient(90deg, #0f2663, #2563EB);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.chat-header h2 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.status {
+    color: #14c383;
+    font-size: 0.9em;
+}
+
+/*окно чата*/
+.messages-container {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    background: #F1F5F9;
+}
+
+/*сообщения*/
+.message {
+    max-width: 70%;
+    margin-bottom: 15px;
+    padding: 12px 16px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.bot-message {
+    background: #E0F2FE;
+    border-bottom-left-radius: 5px;
+    align-self: flex-start;
+    margin-right: auto;
+}
+
+.user-message {
+    background:linear-gradient(90deg, #0f2663, #2563EB);
+    color: white;
+    border-bottom-right-radius: 5px;
+    align-self: flex-end;
+    margin-left: auto;
+}
+
+.message-time {
+    font-size: 0.7em;
+    opacity: 0.7;
+    margin-top: 5px;
+    text-align: right;
+}
+
+/*поле ввода*/
+.input-container {
+    display: flex;
+    padding: 20px;
+    background: white;
+    border-top: 2px solid #E2E8F0;
+    gap: 10px;
+}
+
+#user-input {
+    flex: 1;
+    padding: 12px 16px;
+    border: 2px solid #CBD5E1;
+    border-radius: 25px;
+    outline: none;
+    font-size: 1em;
+}
+
+#user-input:focus {
+    border-color: #173d90;
+}
+
+#send-button {
+    background: linear-gradient(90deg, #0f2663, #2563EB);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background 0.3s;
+}
+
+#send-button:hover {
+    background: #173d90;
+}
