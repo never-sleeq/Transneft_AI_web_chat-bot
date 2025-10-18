@@ -1,6 +1,4 @@
 
-
-
 # 🤖 Цифровой консультант ПАО «Транснефть»
 
 Это система ИИ-консультанта, работающего полностью локально на вашем компьютере:  
@@ -24,8 +22,8 @@
 1. **Скачайте репозиторий**  
    Нажмите **«Code → Download ZIP»** или клонируйте через Git:
    ```bash
-   git clone https://github.com/yourname/transneft_ai_github_repo.git
-   cd transneft_ai_github_repo
+   git clone https://github.com/never-sleeq/Transneft_AI_web_chat-bot
+   cd Transneft_AI_web_chat-bot
    ```
 
 2. Перейдите по ссылке хранилища https://drive.google.com/drive/folders/1ZJmImIehbS1g_flHRs58iEk_zs5cJAyX?usp=drive_link , скачайте оттуда папку с моделью bge-m3 и файл модели Saiga2-7B (в формате .guff) и поместите в transneft_ai_web_chat/backend
